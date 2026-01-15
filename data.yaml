@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['apple scab', 'common rust- maize', 'potato blight']
+
+roboflow:
+  workspace: plant-disease-uspfm
+  project: plant-disease-detection-knutl
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/plant-disease-uspfm/plant-disease-detection-knutl/dataset/4
